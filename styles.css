@@ -1,0 +1,119 @@
+/* Estilos globales */
+body {
+    font-family: Arial, sans-serif;
+    color: #000;
+    background-color: #fff;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    margin: 0;
+    position: relative;
+}
+
+/* Cabecera */
+.header {
+    background-color: navy;
+    color: white;
+    position: relative;
+    z-index: 1;
+}
+
+/* Barra de navegación */
+.navbar-nav .nav-item .nav-link {
+    font-weight: bold;
+    padding: 10px 30px;
+    display: block;
+    color: white;
+}
+
+.navbar-nav .nav-item .nav-link:hover,
+.navbar-nav .nav-item .dropdown-menu .dropdown-item:hover {
+    background-color: #555;
+    color: white;
+}
+
+.search-icon {
+    margin-left: auto;
+}
+
+/* Logo */
+.logo img {
+    width: 250px; 
+    height: auto; 
+}
+
+/* Sección principal */
+.main {
+    display: flex; /* Usa Flexbox para alinear los elementos en línea */
+    align-items: flex-start; /* Alinea los elementos al inicio (parte superior) del contenedor */
+    padding: 50px 20px;
+    flex: 1;
+    position: relative;
+    z-index: 1;
+}
+
+/* Contenedor del texto */
+.description {
+    flex: 1; /* El texto ocupa el espacio restante */
+    max-width: 800px;
+    margin: 0;
+}
+
+/* Estilos del texto */
+.description p {
+    text-align: left;
+}
+
+.description h1 {
+    font-size: 2.5em;
+    margin: 0;
+    font-weight: bold;
+}
+
+.news-title {
+    font-style: normal;
+    color: gray;
+}
+
+/* Imagen alineada a la derecha */
+.right-img {
+    width: 250px; /* Ancho de la imagen */
+    height: auto; /* Mantiene la relación de aspecto de la imagen */
+    margin-left: 20px; /* Espacio entre el texto y la imagen */
+}
+
+/* Footer */
+.footer {
+    background-color: black;
+    color: #fff;
+    padding: 10px;
+    text-align: center;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+}
+
+/* Lista de noticias */
+.fechas {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color: white;
+    width: 50%;
+    background-color: black;
+    margin: auto;
+    font-size: medium;
+    letter-spacing: 10px;
+    list-style: none;
+    text-align: left;
+    padding: 0;
+}
+
+.fechas li {
+    display: flex;    
+    padding: 0 20px;
+}
+
+.fechas span {
+    background-color: black;
+    color: #fff;
+    padding: 0 10px;
+}
